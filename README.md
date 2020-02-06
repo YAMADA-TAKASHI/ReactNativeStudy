@@ -116,3 +116,13 @@ $ apksigner sign --ks app/my-release-key.keystore --ks-key-alias my-key-alias my
 - flex-end
 - center
 - baseline
+
+### alignSelf
+
+### alignContent
+
+### flexWrap
+
+### flex-shrink
+
+### Absolute & Relative Layout

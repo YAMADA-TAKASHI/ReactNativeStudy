@@ -1,33 +1,21 @@
 import React, { Component } from "react";
 import { 
     View,
-    FlatList,
     StyleSheet,
+    SafeAreaView,
 } from "react-native";
 import { 
-    Container,
-    Header,
-    Left,
-    Body,
-    Right,
-    Title,
-    Button,
-    Content,
-    List,
-    ListItem,
-    Text,
-    Icon,
-    Switch,
-    Thumbnail
+  Text,
+  Button,
 } from "native-base";
 
 export default class MainScreen extends Component {
      
   render() {
     return (
-      <Container style={styles.container}>
-        <Text>テンプレ</Text>
-      </Container>
+      <SafeAreaView style={styles.container}>
+        <Text>テンプレート</Text>
+      </SafeAreaView>
     )
   }
  }

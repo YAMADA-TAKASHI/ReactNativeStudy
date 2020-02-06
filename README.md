@@ -110,3 +110,9 @@ $ apksigner sign --ks app/my-release-key.keystore --ks-key-alias my-key-alias my
 - space-around
 - space-evenly
 
+### alignItems
+- stretch
+- flex-start
+- flex-end
+- center
+- baseline

@@ -96,9 +96,17 @@ $ apksigner sign --ks app/my-release-key.keystore --ks-key-alias my-key-alias my
 
 ## FlexBox
 
-### Flex Direction
+### flexDirection
 - row
 - column
 - row-reverse
 - column-reverse
+
+### justifyContent
+- flex-start
+- flex-end
+- center
+- space-between
+- space-around
+- space-evenly
 

@@ -17,6 +17,7 @@ $ npm i react-redux
 $ npm i redux
 $ npm i buffer
 $ npm i react-native-qrcode-svg react-native-svg
+$ npm i xmldom
 
 //インストール、リンク
 $ npm install
@@ -79,4 +80,25 @@ android {
         }
     }
 }
+
 ```
+
+## リリースコマンド
+
+```
+$ cd android
+$ gradlew assembleRelease
+$ zipalign -f -v 4 app/build/outputs/apk/release/app-release.apk my-app.apk
+$ apksigner sign --ks app/my-release-key.keystore --ks-key-alias my-key-alias my-app.apk
+```
+
+# メモ
+
+## FlexBox
+
+### Flex Direction
+- row
+- column
+- row-reverse
+- column-reverse
+

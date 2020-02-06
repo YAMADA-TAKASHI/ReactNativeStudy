@@ -1,0 +1,1 @@
+export const tabReducer = (state = {}) => state;

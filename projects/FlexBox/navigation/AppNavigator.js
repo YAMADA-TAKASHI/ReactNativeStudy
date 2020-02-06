@@ -12,6 +12,7 @@ import MainScreen from "../screens/MainScreen";
 import FlexDirectionBasics from "../screens/views/FlexDirectionBasics";
 import JustifyContentBasics from '../screens/views/JustifyContentBasics';
 import AlignItemsBasics from '../screens/views/AlignItemsBasics';
+import AlignSelf from '../screens/views/AlignSelf';
 
 //起動画面
 const Main = {
@@ -27,6 +28,7 @@ const MainNavigation = createStackNavigator(
         FlexDirectionBasics,
         JustifyContentBasics,
         AlignItemsBasics,
+        AlignSelf,
     },
     {
         mode: 'card',

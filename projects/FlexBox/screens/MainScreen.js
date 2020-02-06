@@ -28,7 +28,7 @@ export default class MainScreen extends Component {
       ],
       [
         { id: 3, text: "AlignItemsBasics", color: "#999999" },
-        { id: 4, text: "FlexDirection4", color: "#cccccc" }
+        { id: 4, text: "AlignSelf", color: "#cccccc" }
       ],
     ];
     

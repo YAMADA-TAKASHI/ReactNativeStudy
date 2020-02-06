@@ -23,11 +23,11 @@ export default class MainScreen extends Component {
     const btns = [];
     const data = [
       [
-        { id: 1, text: "FlexDirection1", color: "#333333"},
-        { id: 2, text: "FlexDirection2", color: "#666666" }
+        { id: 1, text: "FlexDirectionBasics", color: "#333333"},
+        { id: 2, text: "JustifyContentBasics", color: "#666666" }
       ],
       [
-        { id: 3, text: "FlexDirection3", color: "#999999" },
+        { id: 3, text: "AlignItemsBasics", color: "#999999" },
         { id: 4, text: "FlexDirection4", color: "#cccccc" }
       ],
     ];
@@ -39,7 +39,7 @@ export default class MainScreen extends Component {
           {
             array.map(val => {
               // return <Text style={[{backgroundColor: val.color}, styles.button]}>{val.text}</Text>
-              return <Button style={styles.button} key={val.id} title={val.text} />;
+              return <Button style={styles.button} key={val.id} title={val.text} onPress={() => this.props.navigation.navigate(val.text)}/>;
             })
           }
         </View>

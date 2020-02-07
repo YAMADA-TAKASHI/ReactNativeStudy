@@ -19,6 +19,11 @@ $ npm i buffer
 $ npm i react-native-qrcode-svg react-native-svg
 $ npm i xmldom
 
+//HTTP通信周り
+$ npm i axios
+$ npm i json-server -g      //json-server --watch [jsonのパス] で起動
+
+
 //インストール、リンク
 $ npm install
 $ react-native link

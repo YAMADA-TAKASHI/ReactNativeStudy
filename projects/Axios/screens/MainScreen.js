@@ -18,13 +18,15 @@ export default class MainScreen extends Component {
     this.state = {
       movies: []
     }
+
+    var params = new URLSearchParams();
+    params.append('param1', '1');
+    params.append('param2', 'test');
+
     // Movie一覧取得
-    axios.post("http://www.sweet.jp", {
-      userid: 'takashi.yamada@tanita.co.jp',
-      password: 'takashi'
-    })
+    axios.post("http://www.yahoo.co.jp/", params)
     .then(res => {
-      console.log('ログイン成功');
+      console.log(res);
     })
     .catch(error => console.log(error));
   }

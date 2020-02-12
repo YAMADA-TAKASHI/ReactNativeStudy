@@ -32,12 +32,6 @@ const RssUrl = "https://nakadoribooks.com/feed"
                 <FlatList
                     data={this.state.articleList}
                     extraData={this.state.reloadCount}
-                    refreshControl={
-                        <RefreshControl
-                          refreshing={this.state.isRefreshing}
-                          onRefresh={this.onRefresh.bind(this)}
-                        />
-                    }
                     keyExtractor={item => item.link}
                     renderItem={(data) => {
                         return <ArticleCell 

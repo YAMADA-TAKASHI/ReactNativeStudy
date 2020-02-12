@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AppNavigator from "./projects/Axios/navigation/AppNavigator";
+import AppNavigator from "./projects/FlatListInfinite/navigation/AppNavigator";
 
 export default class App extends Component {
   render() {
